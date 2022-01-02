@@ -21,6 +21,8 @@ public class LinearSearch {
 
     }
 
+
+    // List does not need to be sorted for linear search.
     public static int linear_search(ArrayList list, int target) {
         for(int i = 0; i < list.size(); i++) {
             if((Integer)list.get(i) == target) {
